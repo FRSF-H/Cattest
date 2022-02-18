@@ -20,4 +20,11 @@
 
 #### 部分使用过程图片
 1. 灰度化
-<img src="cattest\md_img\close.png">
+<img src="https://gitee.com/frsf/Cattest/raw/master/md_img/dark.png">
+2. sobel
+<img src="https://gitee.com/frsf/Cattest/raw/master/md_img/sobel.png">
+3. 闭运算
+<img src="https://gitee.com/frsf/Cattest/raw/master/md_img/close.png">
+4.结果
+<img src="https://gitee.com/frsf/Cattest/raw/master/md_img/img.png">
+
