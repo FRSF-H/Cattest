@@ -1,0 +1,202 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.12" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"$sizePolicy": 1
+			"defaultCloseOperation": 2
+			"title": "车牌识别系统"
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel1"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane3"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane1"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "解析车牌图像"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel2"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane4"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane2"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "高斯滤波"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel3"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane5"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane3"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "灰度化"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel4"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane4"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Sobel"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel5"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane2"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane5"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "二值化"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel6"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane6"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane6"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "闭运算+中值滤波"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+					name: "panel7"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane7"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane7"
+						} )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "查找轮廓"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel8"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane8"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane8"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 670
+						"height": 195
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane9"
+						add( new FormComponent( "javax.swing.JTextPane" ) {
+							name: "textPane9"
+							"editable": false
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 200
+						"width": 63
+						"height": 68
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane10"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 105
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane11"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 210
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane12"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 315
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane13"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 420
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane14"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 515
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JTextPane" ) {
+						name: "textPane15"
+						"editable": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 63
+						"height": 68
+						"x": 605
+						"y": 200
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "提取车牌"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 5
+				"width": 675
+				"height": 435
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "getpic"
+				"text": "上传图像"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "getpicActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 590
+				"y": 450
+				"width": 90
+				"height": 28
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "上传图像时请打开项目目录下的carpic子目录选择车牌图像"
+				"background": sfield java.awt.Color white
+				"foreground": sfield java.awt.Color blue
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 445
+				"width": 320
+				"height": 32
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 695, 525 )
+		} )
+	}
+}
